@@ -1,9 +1,9 @@
-Solana Whale Ops Indexer
+# Solana Whale Ops Indexer
 
 Real-time indexing and alerting for the Solana blockchain.
 Track whale moves, DeFi activity, NFT trades, and suspicious transactions as they happen, and get actionable insights delivered straight to your channels.
 
-✨ Features
+# ✨ Features
 
  Real-time transaction streaming — powered by Solana Yellowstone gRPC
 
@@ -17,11 +17,11 @@ Track whale moves, DeFi activity, NFT trades, and suspicious transactions as the
 
  Dev-friendly design — usable both as a tool and a public good
 
-💡 Why it matters
+ # 💡 Why it matters
 
 Whales move markets. By indexing Solana transactions in real-time, Whale Ops Indexer gives traders, builders, and analysts a chance to spot flows before they become trends.
 
-📌 Current Status
+# 📌 Current Status
 
 ✅ Majority complete and functional for:
 
@@ -39,7 +39,7 @@ Advanced analytics dashboards
 
 Additional filters and integrations
 
-🗺️ Roadmap
+# 🗺️ Roadmap
 
 UI dashboard for whale, DeFi, and NFT flows
 
@@ -49,7 +49,7 @@ Historical replay + analytics
 
 Open API for developers
 
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions and feedback are welcome!
 
@@ -57,3 +57,4 @@ Open an issue for bugs, ideas, or feature requests.
 
 Submit a pull request to help shape Whale Ops Indexer.
 Contributions and feedback are welcome! Feel free to open issues or submit pull requests.
+
