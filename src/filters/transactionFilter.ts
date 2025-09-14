@@ -11,7 +11,7 @@ interface Transaction {
   memo?: string;
 }
 
-const filterTransaction = (transaction: Transaction) => {
+export const isWhaleTransfer = (transaction: Transaction) => {
     if(transaction.amount>=thresholds.whaleUSD){
         return true;
     }

@@ -1,25 +1,30 @@
 {
   "name": "whale-ops-indexer",
   "version": "1.0.0",
+  "type": "commonjs",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/streams/solanaStream.ts",
+     "dev": "ts-node src/streams/solanaStream.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/node": "^24.3.3",
+    "@grpc/grpc-js": "^1.13.4",
+    "@grpc/proto-loader": "^0.8.0",
     "@types/pg": "^8.15.5",
-    "pg": "^8.16.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
+    "pg": "^8.16.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "@types/node": "^24.3.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   }
 }
